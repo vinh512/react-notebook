@@ -2,4 +2,47 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #737373;
+  color: white;
+  max-width: 680px;
+  margin: 0 auto;
+  /*font-family: 'Raleway', sans-serif;*/
+}
+
+hr {
+  margin: 0;
+  border: 2px solid #f0aa6c;
+}
+
+p {
+  margin: 10px;
+}
+
+.name-header {
+  display: inline-block;
+  width: 200px;
+  font-size: 1.4em;
+}
+
+.phone-header {
+  display: inline-block;
+  width: 200px;
+  font-size: 1.2em;
+}
+
+.comment-body {
+  font-size: 1.1em;
+}
+
+#root {
+  background-color: #915c56;;
+}
+
+.delete {
+  float: right;
+}
+
+.name-list {
+  padding: 30px 0;
+  margin: 0 50px;
 }
